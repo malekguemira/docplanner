@@ -285,15 +285,20 @@
     gap: 0.5cm;
     justify-content: center;
     flex-wrap: wrap;
-
+    
   }
 
   .section5 .card {
     border-radius: 1%;
     margin: 1.8%;
     cursor: pointer;
+   
+  
   }
-
+  .card:hover{
+    box-shadow: 10px 5px 10px gray;
+    }
+   
   .section5 p {
     font-size: medium;
     color: #747474;

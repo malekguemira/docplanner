@@ -1,3 +1,7 @@
+.body{
+  width:  100%; 
+  overflow-x: hidden;
+}
 .navbar {
   width: 70%;
   margin: auto;
@@ -139,40 +143,30 @@
   font-size: large;
 }
 .section2 {
+  width: 70%;
+  margin: auto;
   display: flex;
-  width: 100%;
-  justify-content: flex-start;
-  align-items: center;
-  padding-left: 200px;
-  margin: -15px;
+  justify-content: center;
 }
-.section2 div {
-  width: 60%;
-  display: flex;
-}
-
 .section2title {
-  font-size: 1.625em;
-  padding-left: 80px;
+  font-weight: 100;
+  width: 40%;
   color: #00b39b;
   font-family: Work Sans, Arial, sans-serif;
-  font-weight: 300;
+  font-size: x-large;
   letter-spacing: -0.3px;
-  margin: -50px;
-  
 }
 .logosection2 {
-  width: 100%;
-  display:flex;
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 1.5rem;
-
+  gap: 30px;
+  width: 40%;
 }
 
 
 .logosection2 img {
-  width: 6.5rem;
-  object-fit: contain;  
+  width: 20%;
 }
 .section3 {
   display: flex;
@@ -294,9 +288,10 @@
 
   }
 
-  .section5 div {
+  .section5 .card {
     border-radius: 1%;
     margin: 1.8%;
+    cursor: pointer;
   }
 
   .section5 p {
@@ -330,6 +325,7 @@
   div .buttons {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
   }
   .section6 h1{
   font-size: 2.1428571429em;
